@@ -1,11 +1,11 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
-    FSUB = getenv("FSUB", "SDBotz")
-    CHID = int(getenv("CHID", "-1000112234"))
+    API_ID = int(getenv("API_ID", "23685822"))
+    API_HASH = getenv("API_HASH", "ff0572e13ff2f63a50f6dc707e0c4c9f")
+    BOT_TOKEN = getenv("BOT_TOKEN", "")
+    FSUB = getenv("FSUB", "FilmyflixHD")
+    CHID = int(getenv("CHID", "-1001648037641"))
     SUDO = list(map(int, getenv("SUDO").split()))
     MONGO_URI = getenv("MONGO_URI", "")
     
