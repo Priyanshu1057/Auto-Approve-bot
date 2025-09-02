@@ -7,6 +7,6 @@ class Config:
     FSUB = getenv("FSUB", "FilmyflixHD")
     CHID = int(getenv("CHID", "-1001648037641"))
     SUDO = list(map(int, getenv("6725874739").split()))
-    MONGO_URI = getenv("MONGO_URI", "")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://priyanshukumawat90_db_user:HtZWFwZpyQgNmdtv@cluster0.gmchzjb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
