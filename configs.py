@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "")
     FSUB = getenv("FSUB", "FilmyflixHD")
     CHID = int(getenv("CHID", "-1001648037641"))
-    SUDO = list(map(int, getenv("6725874739 1018033649").split()))
+    SUDO = list(map(int, getenv("").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://priyanshukumawat90_db_user:HtZWFwZpyQgNmdtv@cluster0.gmchzjb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
